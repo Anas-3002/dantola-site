@@ -1,0 +1,6 @@
+# the host is Linux - keep line endings stable across platforms
+* text=auto eol=lf
+
+*.jpg binary
+*.png binary
+*.ico binary

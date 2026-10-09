@@ -1,0 +1,90 @@
+  <header data-header class="fixed inset-x-0 top-0 z-50">
+    <!-- utility bar -->
+    <div class="hidden bg-brand-navy text-inverse-on-surface lg:block">
+      <div class="shell flex h-9 items-center justify-between text-label-md font-semibold tracking-[0.03em]">
+        <div class="flex items-center gap-5">
+          <span class="inline-flex items-center gap-1.5">
+            <svg viewBox="0 0 24 24" class="h-3.5 w-3.5 text-secondary-fixed" fill="currentColor" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>
+            <span data-cfg="addressShort">Ocean Tower, DHA Phase 6, Karachi</span>
+          </span>
+          <span class="inline-flex items-center gap-1.5 text-inverse-on-surface/70">
+            <span aria-hidden="true">&#128337;</span>
+            <span>Mon&ndash;Fri 10:00&ndash;21:00 &middot; Sat 10:00&ndash;18:00</span>
+          </span>
+        </div>
+        <div class="flex items-center gap-5">
+          <span class="badge-urgent !py-0.5"><span class="dot-pulse" aria-hidden="true"></span> 24/7 emergency line</span>
+          <a data-cfg-attr="href:tel" href="tel:+923135524592" class="inline-flex items-center gap-1.5 font-bold text-secondary-fixed transition-colors hover:text-white">
+            <span aria-hidden="true">&#9742;</span><span data-cfg="phone">+92 313 5524592</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- main bar -->
+    <div data-header-shell class="border-b border-transparent bg-white/85 backdrop-blur transition-all duration-300">
+      <div class="shell flex h-[68px] items-center justify-between gap-4">
+        <a href="index.html" class="group inline-flex shrink-0 items-center gap-3" aria-label="Dantola Dental Clinic &mdash; home">
+          <span class="grid h-11 w-11 place-items-center rounded-md bg-brand-navy shadow-navy transition-transform duration-300 group-hover:scale-105">
+            <svg viewBox="0 0 48 48" class="h-7 w-7" role="img" aria-hidden="true">
+              <defs>
+                <linearGradient id="dntmark" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#00d2d3"/><stop offset="1" stop-color="#10b981"/>
+                </linearGradient>
+              </defs>
+              <path fill="url(#dntmark)" d="M24 8c-3.6 0-5.2 1.6-8 1.6S10 8 8.6 11.2c-1.9 4.2-.6 9.6 1.6 14.4 1.6 3.4 2 8.2 2.6 11.6.5 3 1.6 4.8 3.4 4.8 2 0 2.6-2.4 3.2-6 .6-3.6 1.4-6 4.6-6s4 2.4 4.6 6c.6 3.6 1.2 6 3.2 6 1.8 0 2.9-1.8 3.4-4.8.6-3.4 1-8.2 2.6-11.6 2.2-4.8 3.5-10.2 1.6-14.4C38 8 35.6 9.6 32 9.6S27.6 8 24 8Z"/>
+            </svg>
+          </span>
+          <span class="leading-none">
+            <span class="block text-headline-sm font-extrabold tracking-[-0.02em] text-brand-navy">Dantola</span>
+            <span class="block text-label-caps font-bold uppercase tracking-[0.14em] text-brand-blue">Dental Clinic</span>
+          </span>
+        </a>
+
+        <nav class="hidden items-center gap-1 lg:flex" aria-label="Primary">
+          <a class="nav-link" data-path="home" href="index.html">Home</a>
+          <a class="nav-link" data-path="services" href="services.html">Services</a>
+          <a class="nav-link" data-path="about" href="about.html">About</a>
+          <a class="nav-link" data-path="contact" href="contact.html">Contact</a>
+        </nav>
+
+        <div class="flex items-center gap-2">
+          <a data-cfg-attr="href:tel" href="tel:+923135524592"
+             class="hidden items-center gap-2 rounded-full border-[1.5px] border-brand-slate px-4 py-2.5 text-label-lg font-bold text-brand-navy transition-colors hover:border-[#00d2d3] hover:bg-brand-mintwash sm:inline-flex">
+            <span aria-hidden="true">&#9742;</span>
+            <span class="hidden xl:inline" data-cfg="phone">+92 313 5524592</span>
+            <span class="xl:hidden">Call</span>
+          </a>
+          <button type="button" data-open-tray aria-expanded="false" aria-controls="booking-tray" class="btn-primary btn-md hidden sm:inline-flex">
+            Book Appointment
+          </button>
+          <button type="button" data-drawer-toggle aria-expanded="false" aria-controls="mobile-drawer"
+                  class="grid h-11 w-11 place-items-center rounded-full border-[1.5px] border-brand-slate text-brand-navy transition-colors hover:border-[#00d2d3] lg:hidden">
+            <span class="sr-only">Open menu</span>
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
+              <path d="M4 7h16M4 12h16M4 17h16"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- mobile drawer -->
+    <div id="mobile-drawer" data-drawer class="hidden lg:hidden">
+      <div class="fixed inset-0 top-[68px] z-40 bg-brand-navy/45 backdrop-blur-sm" data-drawer-toggle aria-hidden="true"></div>
+      <div class="relative z-50 mx-gutter-mobile mt-2 rounded-lg border border-white/70 bg-surface-lowest p-5 shadow-level3">
+        <nav class="grid gap-1" aria-label="Mobile">
+          <a class="flex items-center justify-between rounded px-4 py-3 text-body-lg font-bold text-brand-navy hover:bg-surface-container" data-path="home" href="index.html">Home <span aria-hidden="true">&rarr;</span></a>
+          <a class="flex items-center justify-between rounded px-4 py-3 text-body-lg font-bold text-brand-navy hover:bg-surface-container" data-path="services" href="services.html">Services <span aria-hidden="true">&rarr;</span></a>
+          <a class="flex items-center justify-between rounded px-4 py-3 text-body-lg font-bold text-brand-navy hover:bg-surface-container" data-path="about" href="about.html">About <span aria-hidden="true">&rarr;</span></a>
+          <a class="flex items-center justify-between rounded px-4 py-3 text-body-lg font-bold text-brand-navy hover:bg-surface-container" data-path="contact" href="contact.html">Contact <span aria-hidden="true">&rarr;</span></a>
+        </nav>
+        <div class="mt-4 grid gap-2">
+          <button type="button" data-open-tray aria-expanded="false" aria-controls="booking-tray" class="btn-primary btn-lg w-full">Book Appointment</button>
+          <a data-cfg-attr="href:tel" href="tel:+923135524592" class="btn-ghost btn-lg w-full"><span aria-hidden="true">&#9742;</span> <span data-cfg="phone">+92 313 5524592</span></a>
+          <a data-cfg-attr="href:wa" data-wa-text="Hello Dantola, I would like to book an appointment." href="https://wa.me/923135524592" class="btn-mint btn-lg w-full">WhatsApp us</a>
+        </div>
+        <p class="mt-4 rounded bg-surface-container-low px-4 py-3 text-body-sm text-on-surface-variant" data-cfg="address">Dantola Dental Clinic, 3rd Floor, Ocean Tower, DHA Phase 6, Karachi</p>
+      </div>
+    </div>
+  </header>

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /src/
+Disallow: /tools/
+Disallow: /node_modules/
+
+Sitemap: https://dantola.com/sitemap.xml
