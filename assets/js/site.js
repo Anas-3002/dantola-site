@@ -22,9 +22,9 @@
     phoneDial: "+923135524592",
     email: "hello@dantola.com",
     clinic: "Dantola Dental Clinic",
-    addressShort: "Ocean Tower, DHA Phase 6, Karachi",
-    address: "Dantola Dental Clinic, 3rd Floor, Ocean Tower, Plot 12-A, Khayaban-e-Iqbal, DHA Phase 6, Karachi, Pakistan",
-    mapsQuery: "Ocean Tower, Khayaban-e-Iqbal, DHA Phase 6, Karachi",
+    addressShort: "Al-Babar Center, F-7 Markaz, Islamabad",
+    address: "Dantola Dental Clinic, Office 204, 2nd Floor, Al-Babar Center, F-7 Markaz, Islamabad, Pakistan",
+    mapsQuery: "Al-Babar Center, F-7 Markaz, Islamabad",
     hours: [
       { days: "Monday - Friday", time: "10:00 - 21:00" },
       { days: "Saturday", time: "10:00 - 18:00" },

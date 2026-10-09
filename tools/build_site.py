@@ -27,8 +27,8 @@ TOKEN = "__SITE_URL__"
 PAGES = [
     (
         "home", "index.html",
-        "Dantola Dental Clinic &mdash; Precision Dentistry in Karachi",
-        "Dantola Dental Clinic in DHA Phase 6, Karachi: digital scanning, guided dental "
+        "Dantola Dental Clinic &mdash; Precision Dentistry in Islamabad",
+        "Dantola Dental Clinic in F-7 Markaz, Islamabad: digital scanning, guided dental "
         "implants, smile design, orthodontics and 24/7 emergency dental care. Book an "
         "appointment on WhatsApp in under a minute.",
         "", "index,follow", "home",
@@ -44,12 +44,12 @@ PAGES = [
     "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "3rd Floor, Ocean Tower, Plot 12-A, Khayaban-e-Iqbal, DHA Phase 6",
-      "addressLocality": "Karachi",
-      "addressRegion": "Sindh",
+      "streetAddress": "Office 204, 2nd Floor, Al-Babar Center, F-7 Markaz",
+      "addressLocality": "Islamabad",
+      "addressRegion": "Islamabad Capital Territory",
       "addressCountry": "PK"
     },
-    "areaServed": "Karachi",
+    "areaServed": "Islamabad",
     "medicalSpecialty": ["Dentistry", "Orthodontic", "Prosthodontics", "Endodontics"],
     "openingHoursSpecification": [
       {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "10:00", "closes": "21:00"},
@@ -61,10 +61,10 @@ PAGES = [
     ),
     (
         "services", "services.html",
-        "Dental Services &amp; Treatments in Karachi &mdash; Dantola Dental Clinic",
+        "Dental Services &amp; Treatments in Islamabad &mdash; Dantola Dental Clinic",
         "General and preventive dentistry, dental implants, cosmetic smile design, "
         "orthodontics, root canal therapy, children's dentistry and 24/7 emergency dental "
-        "care in DHA Phase 6, Karachi.",
+        "care in F-7 Markaz, Islamabad.",
         "services.html", "index,follow", "services",
         """<script type="application/ld+json">
   {
@@ -97,8 +97,8 @@ PAGES = [
     ),
     (
         "contact", "contact.html",
-        "Book a Dental Appointment in Karachi &mdash; Contact Dantola",
-        "Book a dental appointment at Dantola Dental Clinic, DHA Phase 6, Karachi. Call "
+        "Book a Dental Appointment in Islamabad &mdash; Contact Dantola",
+        "Book a dental appointment at Dantola Dental Clinic, F-7 Markaz, Islamabad. Call "
         "+92 313 5524592, message us on WhatsApp, request a callback or get directions to "
         "the clinic.",
         "contact.html", "index,follow", "contact",
@@ -115,9 +115,9 @@ PAGES = [
       "email": "hello@dantola.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "3rd Floor, Ocean Tower, Plot 12-A, Khayaban-e-Iqbal, DHA Phase 6",
-        "addressLocality": "Karachi",
-        "addressRegion": "Sindh",
+        "streetAddress": "Office 204, 2nd Floor, Al-Babar Center, F-7 Markaz",
+        "addressLocality": "Islamabad",
+        "addressRegion": "Islamabad Capital Territory",
         "addressCountry": "PK"
       }
     }
